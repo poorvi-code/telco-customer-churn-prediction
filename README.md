@@ -19,8 +19,10 @@ This repository contains a data science workflow that explores the Telco Custome
 	- [notebooks/02_EDA.ipynb](notebooks/02_EDA.ipynb)
 	- [notebooks/03_Preprocessing.ipynb](notebooks/03_Preprocessing.ipynb)
 	- [notebooks/04_Baseline_Models.ipynb](notebooks/04_Baseline_Models.ipynb)
-- `models/` — trained model artifacts (empty in this snapshot).
-- `reports/` — generated reports and figures.
+	- [notebooks/05_DNN_Model_Proper.ipynb](notebooks/05_DNN_Model_Proper.ipynb)
+	- [notebooks/06_DNN_Optimization.ipynb](notebooks/06_DNN_Optimization.ipynb)
+- `models/` — trained model artifacts and saved preprocessing pipelines.
+- `reports/` — generated experiment results, final comparisons, and model metadata.
 - `requirements.txt` — Python dependencies.
 
 ## Getting Started
@@ -54,6 +56,8 @@ Follow the notebooks in sequence:
 - `02_EDA.ipynb`: exploratory analysis and visualizations.
 - `03_Preprocessing.ipynb`: data cleaning, feature engineering, and pipelines.
 - `04_Baseline_Models.ipynb`: train/evaluate baseline classifiers and compare metrics such as accuracy, precision, recall, and ROC AUC.
+- `05_DNN_Model_Proper.ipynb`: implement the proper DNN training pipeline, select the best DNN, and compare it to baseline models.
+- `06_DNN_Optimization.ipynb`: tune and optimize DNN hyperparameters with validation experiments.
 
 To persist trained models, export them from the final notebook into the `models/` directory.
 
